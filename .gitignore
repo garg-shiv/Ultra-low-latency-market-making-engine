@@ -1,0 +1,50 @@
+#CMAKE build artifacts
+/build/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+#Executables and Compiled objects
+*.o
+*.out
+*.exe
+*.so
+*.a
+*.dll
+
+#Editor /IDE Settings
+.vscode/
+.idea/
+*.code-workspace
+
+#System files
+.DS_Store
+Thumbs.db
+
+#logs and dumps
+*.log
+*.core
+
+#Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+#Docker Artifacts
+*.tar
+*.pid
+
+#Python venv
+*.csv
+*.db
+*.sqlite
+
+#Catch2 test output
+Testing/
+test_output/
+
+#VSCODE Dev Containers
+.devcontainer/devcontainer.json
+
+
