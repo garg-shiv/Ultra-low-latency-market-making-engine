@@ -1,5 +1,4 @@
-name: Empty CI
-
+name: Empty CI/CD
 on:
   push:
   pull_request:
